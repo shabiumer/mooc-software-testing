@@ -28,4 +28,10 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15,result);
     }
+
+    @Test
+    public void checkOutCome() {
+        int result = new GettingStarted().multiplyTen(5);
+        Assertions.assertEquals(50, result);
+    }
 }
