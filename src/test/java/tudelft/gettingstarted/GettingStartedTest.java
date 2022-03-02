@@ -12,7 +12,7 @@ public class GettingStartedTest {
     }
 
     @Test
-    public void addTento5(){
+    public void addTentoTen(){
         int result = new GettingStarted().addFive(10);
         Assertions.assertEquals(15, result);
     }
